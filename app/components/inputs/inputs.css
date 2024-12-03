@@ -1,0 +1,33 @@
+.input {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.my-input {
+    appearance: none;
+    background: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 7px 38px 8px 16px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 23px;
+    border: solid 1px #E4EBFA;
+    border-radius: 4px;
+}
+
+.my-input_input-wrapper {
+    position: relative;
+    max-width: 100%;
+}
+
+.my-input_label-wrapper {
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.my-input_label {
+    font-size: 12px;
+    line-height: 17px;
+}

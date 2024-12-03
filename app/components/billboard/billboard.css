@@ -1,0 +1,6 @@
+.billboard {
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
+    overflow: hidden;
+}

@@ -1,0 +1,80 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.centered {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 32px;
+    width: 100%;
+    max-width: 480px;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 6px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.modalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modalContent {
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.modalField {
+    margin-bottom: 21px;
+}
+
+.modalActions {
+    bottom: 2px;
+    width: 100%;
+}
+
+.actionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.closeBtn {
+    margin: 3px -4px 0 13px;
+    padding: 3px 3px 0;
+    background: none;
+    border: none;
+    color: #2c3e50;
+    transition: color .3s ease;
+    cursor: pointer;
+}
+
+.inputListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.h2 {
+    line-height: 23px;
+    font-weight: 700;
+}
